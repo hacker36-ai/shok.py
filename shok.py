@@ -6,7 +6,7 @@ import google.generativeai as genai
 
 # Load environment variables
 load_dotenv()
-API_KEY = "AIzaSyB5ttd8KT5ihBajRzLmAkdXbRy5ed-GunQ" 
+API_KEY = "insert-your-own"
 if not API_KEY:
     exit("❌ Error: GOOGLE_API_KEY not found in environment.")
 genai.configure(api_key=API_KEY)
